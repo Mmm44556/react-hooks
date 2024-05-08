@@ -1,0 +1,36 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.container{
+  &>div{
+    padding: 1rem 0;
+    border-bottom: 0.257rem solid #000;
+  }
+}
+.list-container{
+  margin-top: 20px;
+}
+
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+  .list-container{
+    background-color: #fff;;
+    li{
+      color: #000;
+    }
+  }
+
+}
+.light-mode {
+  background-color: #fff;
+  color: #333;
+.list-container {
+    background-color: #fff;
+  }
+}
